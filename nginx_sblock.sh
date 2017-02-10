@@ -78,7 +78,7 @@ ln -s $NGINX_AVAILABLE_VHOSTS/$1 $NGINX_ENABLED_VHOSTS/$1
 echo "Do you wish to restart nginx?"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) /etc/init.d/nginx restart ; break;;
+        Yes ) /etc/init.d/nginx reload ; break;;
         No ) exit;;
     esac
 done
