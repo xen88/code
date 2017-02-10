@@ -1,5 +1,4 @@
-# code
-### Code snippets
+# Code snippets
 
 #### nginx_sblock.sh
 
